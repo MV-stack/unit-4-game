@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>CrystalCollectorGame</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <title>CrystalCollectorGame</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset=" UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <div class="jumbotron text-center">
-        <h1>Crystal Collector </h1>
-        <h4>How to play:</h4>
-        <p>A random number is displayed at the start of the game.  Each crystal has a different value. Clicking on the crystals will accumulate 
-            their values.</p>
-        <p>If you match the random number value you win! If you go over, you lose!
-        </p>
+  <!--Main Container-->
+  <div class="jumbotron text-center">
+    <h1>Crystal Collector </h1>
+    <h2>How to play:</h2>
+    <p>A random number is displayed at the start of the game. Each crystal has a different value. Clicking on the
+      crystals will accumulate
+      their values.</p>
+    <p>If you match the random number you win! If you go over, you lose!
+    </p>
+  </div>
+  <!--Beginning of game section-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3 id="scoreSection">Match Number:</h3>
+        <h1 class="numberBox text-center">120</h1>
+      </div>
+      <!--Crystal Buttons-->
+      <div class="col-sm-3 text center" id="buttonSection">
+        <button id="b-1"><img src="./assets/images/ruby.png" class="button-images"></button>
+        <button id="b-2"><img src="./assets/images/diamond.png" class="button-images"></button>
+        <button id="b-3"><img src="./assets/images/emerald.png" class="button-images"></button>
+        <button id="b-4"><img src="./assets/images/sapphire.png" class="button-images"></button>
+      </div>
+      <!--<div class="col-sm-3">
+        <h3>Wins</h3>
+        <h3>Losses</h3>
+        <p>Lorem ipsum dolor..</p>
+      </div>-->
+      <div class="col-sm-3 text center">
+        <h3>Your number</h3>
+        <p>Lorem ipsum dolor..</p>
       </div>
       
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 3</h3>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-      </div> 
-      <div class="footer">
-        <p class="footer-text">  &copy;Copyright Miguel Villegas</p>
-      </div>
-    
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h3>Wins</h3>
+      <h3>Losses</h3>
+    </div>
+  </div>
+  <div class="footer">
+    <p class="footer-text"> &copy;Copyright Miguel Villegas</p>
+  </div>
+
 </body>
+
 </html>

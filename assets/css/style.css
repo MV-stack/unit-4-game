@@ -1,0 +1,39 @@
+.jumbotron {   ;
+}
+
+body {
+    background-image: url("../images/bokeh-2152298_1920.jpg");
+    opacity: .7;
+}
+.button-images {
+    max-width: 18%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(149, 153, 156);
+    color: black;
+    text-align: center;
+    height:50px;
+    
+}
+.footer-text{
+    padding-top: 12px;
+    
+}
+
+@media screen and (max-width: 980px){
+    
+}
+
+
+@media only screen and (max-width: 768px){
+	
+}
+
+
+@media only screen and (max-width: 640px){
+	
+}
