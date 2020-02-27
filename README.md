@@ -1,7 +1,7 @@
 # unit-4-game Crystal Collector Game
-![Crystal Collector](../assets/images/CrystalCollector.png)
+![Crystal Collector](assets/images/CrystalCollector.png)
 
-1. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters.
+1. This game randomly generates a number that has to be matched by clicking on gems.  Each gem generates a different number that accumulates your score. 
 
 2. Here's how the app works: 
 
@@ -20,6 +20,6 @@
 
    * The game restarts whenever the player wins or loses.
 
-     * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+     * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. 
 
-   * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+   * The app should show the number of games the player wins and loses. 
