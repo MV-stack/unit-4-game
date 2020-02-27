@@ -1,5 +1,4 @@
 # unit-4-game Crystal Collector Game
-![Crystal Collector](assets/images/CrystalCollector.png)
 
 1. This game randomly generates a number that has to be matched by clicking on gems.  Each gem generates a different number that accumulates your score. 
 
