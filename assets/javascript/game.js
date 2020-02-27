@@ -31,7 +31,7 @@ $(document).ready(function () {
     })
 
     function restartGame() {
-        randomNumber = randomNumberGen(1, 100);
+        randomNumber = randomNumberGen(19, 120);
         $("#random-number").text(randomNumber)
         score = 0;
         $("#score").text(score)
