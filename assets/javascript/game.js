@@ -19,12 +19,12 @@ $(document).ready(function () {
         $("#score").text(score)
         if (score == randomNumber) {
             wins++;
-            alert("You Won")
+            alert("You Won!!")
             $("#wins").text(wins)
             restartGame();
         } else if (score > randomNumber) {
             losses++;
-            alert("You Lost ! Try again");
+            alert("You Lost! Try again?");
             $("#losses").text(losses);
             restartGame()
         }
